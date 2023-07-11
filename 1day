@@ -1,0 +1,27 @@
+Most OS 2 group
+- microsoft NT (windows , xbox OS , windows Phone. mobile ..)
+- Unix (Max OS , Linux , android , chrome OS ...)
+같은 계열이면 운영체제가 다르더라도 명령어가 동일하다.
+
+-- Unix 
+Bell Labs 1960s 
+소프트웨어를 모듈화 시킴 like 레고조각
+True Unix / unix-like ?
+True Unix 는 시간 , 비용 등 유닉스(상표)가 정한 표준을 정확히 지켜 인증 받은 상태.
+유닉스계열(unix-like)은 표준과 가깝지만 상표를 얻지못한 상태. but 명령어 등은 동일
+원조 유닉스 메뉴얼 (https://www.bell-labs.com/usr/dmr/www/man11.pdf)
+
+-- Linux
+linux Torvalds 
+자유 소프트웨어 운동시절 (free (zero price X)) GNU 프로젝트 
+리눅스 커널?  커널은 운영체제가 아니다. 중요한 일들을 수행하는 것은 맞지만 운영체제는 아니다.
+(ex : 자동차의 엔진처럼 엔진이 중요하지만 엔진만으로 움직일수없는 것처럼)
+하드웨어와 소프트웨어간의 상호작용을 가능하게 해준다. 커널이있어서 변환도 해주고 둘 사이의 소통을 가능하게 함.
+
+applications <-> kernel <-> cpu , memory , devices
+즉, 리눅스는 완전한 운영체제가 아니고 리눅스 커널을 이용한 운영체제들은 리눅스 기반 운영체제라고 한다.
+
+-- 쉘
+운영체제를 사람 또는 프로그램에게 보여줄수 있는 역할. (번역)
+-> 커널을 감싸고있음 // bash가 제일 유명함.
+terminal -> shell -> os
